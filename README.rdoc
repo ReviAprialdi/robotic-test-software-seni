@@ -3,26 +3,30 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+TO INSTALL
 
-* Ruby version
+1. git clone https://github.com/ReviAprialdi/robotic-test-software-seni.git
+2. cd robotic
+3. run bundle install
 
-* System dependencies
+TO RUN
 
-* Configuration
+1. cd robotic
+2. run "ruby robotic/main.rb"
 
-* Database creation
+IF RUNNING
 
-* Database initialization
+INPUT :
 
-* How to run the test suite
+PLACE 1,2,EAST 
+MOVE
+MOVE
+LEFT
+MOVE
+REPORT
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+OUTPUT
+3,3,NORTH
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
