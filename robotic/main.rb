@@ -11,5 +11,9 @@ command = STDIN.gets
 while command
   output = role.run(command)
   puts output if output
+  target = open('report.txt','w')
+  target.write(output)
+  target.write("\n")
+  target.close
   command = STDIN.gets
 end
